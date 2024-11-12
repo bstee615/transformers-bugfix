@@ -425,7 +425,7 @@ class HfArgumentParser(ArgumentParser):
             yaml_file (`str` or `os.PathLike`):
                 File name of the yaml file to parse
             allow_extra_keys (`bool`, *optional*, defaults to `False`):
-                Defaults to False. If False, will raise an exception if the json file contains keys that are not
+                Defaults to False. If False, will raise an exception if the yaml file contains keys that are not
                 parsed.
 
         Returns:
